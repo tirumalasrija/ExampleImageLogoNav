@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Volvo</title>
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!-- Custom styles for this template -->
+
+    <style>
+    .app-branding-home{
+      position: absolute;
+      right: 20px;
+      bottom: 20px;
+      width: 100px;
+    }
+    .bannerdiv{
+      position: relative;
+    }
+    </style>
+  </head>
+<!-- NAVBAR
+==================================================-->
+  <body>
+      
+      <div class="container">
+
+
+        <!--<div class="fbImage">
+        <img class="source-image" src="./resources/images/backdrop.jpg" />
+      </div>
+      <div class="app-branding-home">
+        <h:link outcome="/ddvpmhome.faces?faces-redirect=true">
+          <h:graphicImage alt="Ford Oval" library="uicore/images"
+            name="Ford-Oval.png" /> 
+          <h:outputText value="" />
+        </h:link>
+      </div>-->
+      <div class="bannerdiv"> <!--add one div and add class relative in style -->
+        <div class="fbImage">
+          <img class="img-responsive" src="backdrop.jpg">
+        </div>
+        <div class="app-branding-home">
+          <img class="img-responsive" src="ford.png">
+        </div>
+      </div>
+
+      <nav class="navbar navbar-inverse">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="home.html"><u>HOME</u></a></li>
+            <li><a href="registration.html"><u>REGISTRATION</u></a></li>
+            <li><a href="accomodations.html"><u>ACCOMODATIONS</u></a></li>
+            <li><a href="faq.html"><u>FAQ</u></a></li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#">2015 VOLVO RETAILER CONFERENCE</a></li>
+            
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav><!--nav-->
+  </div>
+      
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  </body>
+</html>
